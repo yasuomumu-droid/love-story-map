@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f7b475">
+    <title>Love Story Map · Bản xem trước</title>
+    <meta name="description" content="Bản xem trước bản đồ 3D kể chuyện tình yêu bằng hành trình lái xe.">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+</head>
+<body>
+    <canvas class="canvas js-canvas"></canvas>
+
+    <aside class="preview-badge">
+        <span>Bản DEMO</span>
+        <strong>LOVE STORY MAP</strong>
+        <small>The redesigned version for beloved little Tũn's birthday</small>
+    </aside>
+
+    <div class="preview-help">
+        <span>WASD / phím mũi tên để lái</span>
+        <span>ENTER để mở điểm tương tác</span>
+    </div>
+
+    <aside class="story-panel js-story-panel" aria-live="polite">
+        <button class="story-panel__close js-story-close" type="button" aria-label="Đóng">×</button>
+        <span class="story-panel__eyebrow js-story-eyebrow">KỶ NIỆM ÂM NHẠC</span>
+        <h2 class="js-story-title">Bài hát của chúng mình</h2>
+        <p class="js-story-body" hidden></p>
+        <audio class="story-panel__audio js-story-audio" controls preload="metadata"></audio>
+        <p class="story-panel__status js-story-status">Đang chuẩn bị bài hát…</p>
+        <a class="story-panel__link js-story-link" href="#" target="_blank" rel="noopener noreferrer" hidden></a>
+    </aside>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+public/
+.vite/
+.vite-*/
+.vite-*.log
+*.tgz
+.wrangler/
+.next/
+.dev-*.log
+.DS_Store
+Thumbs.db
+*.blend1
