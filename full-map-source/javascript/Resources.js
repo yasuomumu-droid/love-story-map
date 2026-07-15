@@ -70,7 +70,7 @@ export default class Resources extends EventEmitter
             { name: 'introDevCollision', source: './models/intro/dev/collision.glb' },
 
             // Intro
-            { name: 'crossroadsStaticBase', source: './models/crossroads/static/base.glb' },
+            { name: 'crossroadsStaticBase', source: './models/crossroads/static/base.glb?v=63c00c2.glb' },
             { name: 'crossroadsStaticCollision', source: './models/crossroads/static/collision.glb' },
             { name: 'crossroadsStaticFloorShadow', source: './models/crossroads/static/floorShadow.png', type: 'texture' },
 
